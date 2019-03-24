@@ -1,0 +1,54 @@
+﻿<Window x:Class="Milestone1DB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Milestone1DB"
+        mc:Ignorable="d"
+        Title="Milestone1DB" Height="525" Width="525">
+    <Grid>
+        <GroupBox x:Name="groupBox" Header="State" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Width="497" Height="64"/>
+        <GroupBox x:Name="groupBox1" Header="City" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="187" Height="122">
+            <ListBox x:Name="cityListBox" HorizontalAlignment="Left" Margin="10,10,0,0" Width="159" Height="86" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" SelectionChanged="cityListBoxSelectionChanged">
+                <ListBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.379"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-0.493"/>
+                    </TransformGroup>
+                </ListBox.RenderTransform>
+            </ListBox>
+        </GroupBox>
+        <Label x:Name="label" Content="State" HorizontalAlignment="Left" Margin="20,35,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <ComboBox x:Name="stateList" HorizontalAlignment="Left" Margin="70,39,0,0" VerticalAlignment="Top" Width="425" FontSize="16" SelectionChanged="stateList_SelectionChanged"/>
+        <GroupBox x:Name="groupBox1_Copy" Header="Zipcode" HorizontalAlignment="Left" Margin="202,84,0,0" VerticalAlignment="Top" Width="99" Height="122">
+            <ListBox x:Name="zipcodeListBox" HorizontalAlignment="Left" Margin="10,10,0,0" Width="71" Height="86" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" SelectionChanged="zipcodeListBoxSelectionChanged">
+                <ListBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.379"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-0.493"/>
+                    </TransformGroup>
+                </ListBox.RenderTransform>
+            </ListBox>
+        </GroupBox>
+        <GroupBox x:Name="groupBox1_Copy1" Header="Categories" HorizontalAlignment="Left" Margin="306,84,0,0" VerticalAlignment="Top" Width="201" Height="122">
+            <ListBox x:Name="categoriesListBox" HorizontalAlignment="Left" Margin="10,10,0,0" Width="172" Height="86" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" SelectionChanged="categoriesListBoxSelectionChanged">
+                <ListBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-0.379"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-0.493"/>
+                    </TransformGroup>
+                </ListBox.RenderTransform>
+            </ListBox>
+        </GroupBox>
+        <GroupBox x:Name="groupBox1_Copy2" Header="Business" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="497" Height="273">
+            <DataGrid x:Name="businessesGrid" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="237" Width="468"/>
+        </GroupBox>
+
+    </Grid>
+</Window>

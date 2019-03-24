@@ -1,0 +1,254 @@
+
+
+using System;
+using System.IO;
+using UnityEngine;
+using System.Collections;
+using System.Net;
+using System.Web;
+using System.Net.Http;
+using System.Collections.Generic;
+
+public class SaveLoadUI : MonoBehaviour { 
+
+    private string lastSavedFile = "";
+    public GameObject gameObj;
+
+    // Use this for initialization
+    void Start () {
+    
+    }
+    
+    // Update is called once per frame
+    void Update () {
+    
+    }
+
+    private const string url = "http://deepimpact.eecs.wsu.edu/import.php";
+    private static readonly HttpClient httpClient = new HttpClient();
+
+
+    public async void saveToFile()
+    {
+        var parameters = new List <KeyValuePair<string, string>>();
+        parameters.Add(new KeyValuePair<string, string>("action", "update"));
+        parameters.Add(new KeyValuePair<string, string>("id", "4"));
+        parameters.Add(new KeyValuePair<string, string>("data", "hell yeah"));
+        var content = new FormUrlEncodedContent(parameters);
+
+        var response = await httpClient.PostAsync(url, content);
+        if (response.StatusCode == HttpStatusCode.OK)
+        {
+            // do something
+        }
+
+
+
+
+            /*
+        HttpClientHandler handler = new HttpClientHandler();
+        HttpClient httpclient = new HttpClient(handler);
+        HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, url);
+        HttpResponseMessage response = await httpclient.SendAsync(request, content);
+        */
+
+
+
+
+        //Dictionary<string, string> arguments = new Dictionary<string, string>();
+        /*
+        var request = HttpWebRequest.Create(url);
+        string postData = "action=update&id=4&data=Fromtheemulator";
+        request.Method = "POST";
+        request.ContentType = "application/x-www-form-urlencoded";
+        //request.ContentLength = postData.Length;
+
+        using (var stream = request.BeginGetRequestStream())
+        {
+            stream.Write(postData, 0, postData.Length);
+        }
+
+        var response = (HttpWebResponse)request.GetResponse();
+        var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+        */
+        /*
+        HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
+        request.ContentType = "application/x-www-form-urlencoded";
+        request.Method = "POST";
+        request.BeginGetRequestStream(new AsyncCallback(), request);
+        */
+
+
+        /*
+        string url = "http://deepimpact.eecs.wsu.edu/upload.py"; //http://deepimpact.eecs.wsu.edu/upload.php
+        DateTime curTime = DateTime.Now;
+        //MeshFilter[] mesh = gameObj.GetComponentsInChildren<MeshFilter>();
+
+        //lastSavedFile = "DeepImpact_" + curTime.Month + "_" + curTime.Day + "_" + curTime.Year + "_" + curTime.Hour + "_" + curTime.Minute + "_" + curTime.Second + "_" + curTime.Millisecond /*+ "_" + count*/// + ".obj";
+        /*string filename = Path.Combine(Application.persistentDataPath, lastSavedFile);
+        Debug.Log(filename);
+
+        //ObjExporter.MeshToFile(mesh, filename);
+   
+        using (var server = new HttpClient())
+        {
+          
+            var values = new NameValueCollection();
+            values["action"] = "update";
+            values["id"] = "3";
+            values["data"] = "Hell yeah!";
+            var content = new StringContent(values.ToString());
+            var response = server.PostAsync("http://deepimpact.eecs.wsu.edu/import.php", content);
+        }*/
+        /*
+
+            byte[] bytes = File.ReadAllBytes(filename);
+        WWWForm form = new WWWForm();
+        form.AddBinaryData("file", bytes, lastSavedFile);
+        WWW www = new WWW(url, form);
+        StartCoroutine(sendToServer(www));
+        */
+        //Debug.Log("Save complete");
+        //Debug.Log("last Saved File Name: " + lastSavedFile);
+    }
+
+    private IEnumerator sendToServer(WWW www)
+    {
+        yield return www;
+
+        if (www.error == null)
+        {
+            Debug.Log("WWW Ok!: " + www.text);
+            DateTime dt = DateTime.Now;
+            Debug.Log("time " + dt.Hour + ":" + dt.Minute + ":" + dt.Second + "." + dt.Millisecond);
+            yield return string.Empty;
+        } else
+        {
+            Debug.Log("WWW :(" + www.error);
+            yield return www.error;
+        }
+
+        
+    }
+
+    public void loadFileToSpace()
+    {
+        //loadFromServer
+        try
+        {
+            string url = "http://haumea.eecs.wsu.edu/userdata/4/obj/fake" + "_datetime" + ".obj";
+            //string url = "http://haumea.eecs.wsu.edu/scripts/Haumea_3_18_2017_22_3_29_617_0.obj";
+            WWW www = new WWW(url);
+            StartCoroutine(loadFromServer(www));
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e.Message);
+        }
+        //setMesh
+        //StartCoroutine(setMesh());
+        /*Debug.Log("Load Start");
+        Mesh holderMesh = new Mesh();
+        ObjImporter newMesh = new ObjImporter();
+        lastSavedFile = "Haumea_3_18_2017_22_58_0_560_0.obj"; //"fake.obj";
+        string filename = Path.Combine(Application.persistentDataPath, lastSavedFile);
+        holderMesh = newMesh.ImportFile(filename); //this is the issue
+
+        if (holderMesh == null)
+        {
+            Debug.Log("Mesh failed to import");
+        }
+        else
+        {
+            Debug.Log("file imported");
+        }
+
+        MeshRenderer renderer = gameObj.GetComponentInChildren<MeshRenderer>();
+        if (renderer == null)
+            renderer = gameObj.AddComponent<MeshRenderer>();
+        MeshFilter filter = gameObj.GetComponentInChildren<MeshFilter>();
+        if (filter == null)
+            filter = gameObj.AddComponent<MeshFilter>();
+        Debug.Log("Meshes found");
+        filter.mesh = holderMesh;
+        Debug.Log("Load Complete");*/
+        Debug.Log("Load Start");
+        lastSavedFile = "fake.obj"; //"Haumea_3_18_2017_22_58_0_560_0.obj"; //"fake.obj";
+        string filename = Path.Combine(Application.persistentDataPath, lastSavedFile);
+        //GameObject go = OBJLoader.LoadOBJFile(filename);
+
+        //if (go == null)
+        //{
+        //    Debug.Log("Mesh failed to import");
+        //}
+        //else
+        //{
+        //    Debug.Log("file imported");
+        //    //Instantiate(go, gameObj.transform.position, Quaternion.identity);
+        //}
+
+        Debug.Log("Load Complete");
+    }
+
+    private IEnumerator loadFromServer(WWW www)
+    {
+        yield return www;
+
+        if (www.error == null)
+        {
+            Debug.Log("WWW Ok!: " + www.text);
+            yield return string.Empty;
+        } else
+        {
+            Debug.Log("WWW :(: " + www.error);
+            yield return www.error;
+        }
+    }
+
+    private IEnumerator setMesh()
+    {
+        Debug.Log("Load Start");
+        Mesh holderMesh = new Mesh();
+        ObjImporter newMesh = new ObjImporter();
+        lastSavedFile = "fake.obj"; //"Haumea_3_18_2017_22_58_0_560_0.obj"; //"fake.obj";
+        string filename = Path.Combine(Application.persistentDataPath, lastSavedFile);
+        yield return new WaitForEndOfFrame();
+        holderMesh = newMesh.ImportFile(filename); //this is the issue
+        yield return new WaitForSeconds(1);
+        if (holderMesh == null)
+        {
+            Debug.Log("Mesh failed to import");
+        }
+        else
+        {
+            Debug.Log("file imported");
+        }
+
+        MeshRenderer renderer = gameObj.GetComponentInChildren<MeshRenderer>();
+        if (renderer == null)
+            renderer = gameObj.AddComponent<MeshRenderer>();
+        MeshFilter filter = gameObj.GetComponentInChildren<MeshFilter>();
+        if (filter == null)
+            filter = gameObj.AddComponent<MeshFilter>();
+        Debug.Log("Meshes found");
+        filter.mesh = holderMesh;
+        Debug.Log("Load Complete");
+        yield return null;
+    }
+
+    //public void testTriangle()
+    //{
+    //    Analyzer.Triangle tri = new Analyzer.Triangle(new Vector3(0.0f, 0.0f, 0.0f), new Vector3(0.0f, 1.0f, 0.0f), new Vector3(0.0f, 1.0f, 1.0f));
+
+    //    float angle = Analyzer.GetAngle(tri);
+
+    //    Debug.Log(angle);
+    //}
+
+    //public void testFlatSurfaces()
+    //{
+    //    string filename = "Haumea_3_18_2017_22_58_0_560_0.obj";//"Haumea_3_18_2017_22_15_54_765_0.obj"; //sideways  //"fake.obj";
+    //    string fullpath = Path.Combine(@"D:\milly\Documents\HaumeaTesting", filename);
+    //    Analyzer.ParseFile(fullpath);
+    //}
+}

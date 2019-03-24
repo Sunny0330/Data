@@ -1,0 +1,49 @@
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.exe.config
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.exe
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.pdb
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.exe
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.pdb
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Npgsql.dll
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Npgsql.xml
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone2DB.csprojResolveAssemblyReference.cache
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\MainWindow.g.cs
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\App.g.cs
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB_MarkupCompile.cache
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB_MarkupCompile.lref
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\MainWindow.baml
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.g.resources
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.Properties.Resources.resources
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone2DB.csproj.GenerateResource.Cache
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.exe.config
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.exe
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.pdb
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.exe
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.pdb
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Npgsql.dll
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\bin\Debug\Npgsql.xml
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone2DB.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\App.g.cs
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB_MarkupCompile.cache
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB_MarkupCompile.lref
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\MainWindow.baml
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.g.resources
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.Properties.Resources.resources
+C:\Users\Alex\Desktop\Project Milestone 2\Project Milestone 2\C#\Milestone2DB\Milestone1DB\obj\Debug\Milestone2DB.csproj.GenerateResource.Cache
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.exe.config
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.exe
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\bin\Debug\Milestone1DB.pdb
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\bin\Debug\Npgsql.dll
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\bin\Debug\Npgsql.xml
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone2DB.csprojResolveAssemblyReference.cache
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\MainWindow.g.cs
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\App.g.cs
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB_MarkupCompile.cache
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB_MarkupCompile.lref
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\MainWindow.baml
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.g.resources
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.Properties.Resources.resources
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone2DB.csproj.GenerateResource.Cache
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone2DB.csproj.CoreCompileInputs.cache
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.exe
+C:\Users\sunny\Desktop\ByteMe_Milestone2\ByteMe_C#Application\Milestone2DB\Milestone1DB\obj\Debug\Milestone1DB.pdb
