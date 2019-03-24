@@ -1,0 +1,35 @@
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\bin\Debug\Milestone3DB.exe.config
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\bin\Debug\Milestone3DB.exe
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\bin\Debug\Milestone3DB.pdb
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.csprojResolveAssemblyReference.cache
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\MainWindow.g.cs
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\App.g.cs
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB_MarkupCompile.cache
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB_MarkupCompile.lref
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\MainWindow.baml
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.g.resources
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.Properties.Resources.resources
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.csproj.GenerateResource.Cache
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.exe
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.pdb
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\bin\Debug\Npgsql.dll
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\bin\Debug\Npgsql.xml
+M:\OneDrive\Classwork\Current Courses Work\CPTS 451\Project Milestone 3\C#\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB_Content.g.cs
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\bin\Debug\Milestone3DB.exe.config
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\bin\Debug\Milestone3DB.exe
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\bin\Debug\Milestone3DB.pdb
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\bin\Debug\Npgsql.dll
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\bin\Debug\Npgsql.xml
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.csprojResolveAssemblyReference.cache
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\MainWindow.g.cs
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\App.g.cs
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB_Content.g.cs
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB_MarkupCompile.cache
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB_MarkupCompile.lref
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\MainWindow.baml
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.g.resources
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.Properties.Resources.resources
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.csproj.GenerateResource.Cache
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.csproj.CoreCompileInputs.cache
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.exe
+C:\Users\sunny\Desktop\Milestone3DB\Milestone3DB\obj\Debug\Milestone3DB.pdb
